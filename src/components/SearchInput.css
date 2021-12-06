@@ -51,7 +51,13 @@ form button {
 .input-container-Light {
   background-color: #ffffff;
 }
+
+.input-container-Light input {
+  color: #111 !important;
+}
+
 .input-container-Dark {
   background-color: #1e2a47;
 }
+
 /* tema */
