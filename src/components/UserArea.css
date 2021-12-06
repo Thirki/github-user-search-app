@@ -1,0 +1,130 @@
+/* Temas */
+.user-area-Light {
+  background-color: #fefefe;
+}
+
+.user-area-Dark {
+  background-color: #1e2a47;
+}
+
+.name-Light {
+  color: #4b6a9b;
+}
+
+.name-Dark {
+  color: #f0ffff;
+}
+
+.metrics-Light {
+  background-color: #f6f8ff;
+  color: #4b6a9b;
+}
+.metrics-Dark {
+  background-color: #141d2f;
+  color: #ffffff;
+}
+
+.joined-Light {
+  color: #a0849d;
+}
+
+.joined-Dark {
+  color: #ffffff;
+}
+
+.bio-Light {
+  color: #a4b4cc;
+}
+
+.bio-Dark {
+  color: #8e94a3;
+}
+
+/* Temas */
+
+#user-area {
+  display: flex;
+  justify-content: center;
+  width: 40%;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: rgba(42, 56, 92, 0.35) 0px 5px 15px;
+}
+
+.profile {
+  padding-right: 40px;
+}
+.profile img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+}
+
+.data {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.name-area {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.login {
+  align-self: flex-start;
+  color: #0079ff;
+}
+
+.bio {
+  line-height: 1.6;
+  font-size: 1.14rem;
+}
+
+.metrics {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.metrics tr td {
+  padding-top: 10px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.metrics tr th {
+  font-size: 1rem;
+}
+
+#user-area {
+  margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 1024px) {
+  #user-area {
+    width: 60%;
+  }
+  #input-container {
+    width: calc(60% + 80px);
+  }
+  header {
+    width: calc(60% + 80px);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  #user-area {
+    flex-direction: column;
+  }
+
+  .profile {
+    margin: 0 auto;
+    padding: 0px;
+  }
+}

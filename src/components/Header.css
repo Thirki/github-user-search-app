@@ -1,0 +1,83 @@
+header {
+  font-family: "space mono", monospace, sans-serif;
+  font-weight: bold;
+  width: calc(40% + 80px);
+
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  letter-spacing: 1px;
+
+  padding: 30px 0;
+}
+
+header span {
+  margin-left: 5px;
+  font-size: 1.5rem;
+}
+
+#switch {
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+
+#switch svg {
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+header button {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+/* Tema */
+
+.Light #switch {
+  color: #afbacc;
+  transition: all 0.2s;
+}
+.Light svg {
+  color: #afbacc;
+  transition: all 0.2s;
+}
+
+.Dark #switch {
+  color: #ffffff;
+  transition: all 0.2s;
+}
+.Dark svg {
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.Light #switch:hover {
+  color: #7e8eaa;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+.Light svg:hover {
+  color: #7e8eaa;
+  transition: all 0.2s;
+}
+
+.Dark #switch:hover {
+  color: #e2d7d7;
+  transition: all 0.2s;
+}
+.Dark svg:hover {
+  color: #e2d7d7;
+  transition: all 0.2s;
+}
+
+.Light span {
+  color: #2b3441;
+}
+.Dark span {
+  color: #ffffff;
+}
+/* Tema */

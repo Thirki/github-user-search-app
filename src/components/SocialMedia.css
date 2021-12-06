@@ -1,0 +1,54 @@
+#social-media a {
+  text-decoration: none;
+}
+
+#social-media .disabled {
+  color: #8e94a3;
+  cursor: default;
+}
+
+#social-media {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#social-media p {
+  width: 200px;
+  padding-left: 40px;
+}
+
+#social-media svg {
+  padding-right: 10px;
+}
+
+#social-media p {
+  font-size: 0.9rem;
+}
+
+/* temas */
+.social-media-Light p {
+  color: #93779e;
+  transition: all 0.2s;
+}
+.social-media-Dark p {
+  color: #ffffff;
+  transition: all 0.2s;
+}
+
+.social-media-Light p:hover {
+  color: #b7a1c0;
+  transition: all 0.2s;
+}
+.social-media-Dark p:hover {
+  color: #d4bebe;
+  transition: all 0.2s;
+}
+
+.social-media-Light svg {
+  color: #4b6a9b;
+}
+
+.social-media-Dark svg {
+  color: #ffffff;
+}
+/* temas */
